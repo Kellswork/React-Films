@@ -17,6 +17,7 @@
 * Inside your App file add two routes.
   * one route for `/` that loads the `FilmList` component.
   * one route that will take an `id` parameter after`/films/` (ex: `/film/2`, `/film/3` where the id is dynamic). This route should load the `Film` component.
+  * Add functionality that let's you create add a new film with properties(check server.js file to see movie properties you need) to the list of films available using Formik. see a sample I created with codepen [here with Formik](https://codesandbox.io/s/form-management-pf2wj)
 
 ### Part 2:
 
