@@ -53,17 +53,17 @@ const films = [
 ];
 
 app.get('/api/film', (req, res) => {
-	res.send(movies);
+	res.send(films);
 });
 
 app.get('/api/film/:id', (req, res) => {
-	const movie = movies.filter(movie => movie.id.toString() === req.params.id)[0];
-	res.status(200).json(movie);
+	const film = films.filter(movie => film.id.toString() === req.params.id)[0];
+	res.status(200).json(film);
 });
 
 app.post('/api/film', (req, res) => {
-	if (req.body.id !== undefined) movies.push(req.body);
-	res.status(201).json(movies);
+	if (req.body.id !== undefined) films.push(req.body);
+	res.status(201).json(films);
 });
 
 app.listen(5000, () => {
