@@ -22,7 +22,7 @@
 ### Part 2:
 
 * Make it so that the card in `FilmList` is a link, this should direct the user to the `/films/{id of film here}` URL, where `:id` is the id of the individual film.
-* When a user clicks on a film card they should be taken to `/movies/{id of movie here}` to see the details for the selected movie.
+* When a user clicks on a film card they should be taken to `/films/{id of movie here}` to see the details for the selected film.
 * Add functionality so the `Home` button on the `SavedList` component navigates back to home.
 
 ## Stretch Goals.
@@ -35,5 +35,5 @@ You will notice there is a 'Saved Film' component that we are not currently usin
 
 ### Turn your Saved Film list into `Link`s.
 
-You will need to uncomment lines 14-23 in `Movie.js` to complete this. Your list of saved films should be links to the films itself. Study and understand what the `saveFilm` function is doing.
+You will need to uncomment lines 14-23 in `film.js` to complete this. Your list of saved films should be links to the films itself. Study and understand what the `saveFilm` function is doing.
 
